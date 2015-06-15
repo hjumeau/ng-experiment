@@ -1,0 +1,5 @@
+<div class="list-group">
+	<a ng-repeat="book in books" ng-href="#/book/{{book.isbn}}" class="list-group-item">
+		<p class="list-group-item-text" ng-bind="book.title"></p>
+	</a>
+</div>
